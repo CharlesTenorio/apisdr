@@ -1,0 +1,3 @@
+[flake8]
+max-line-length = 121
+exclude=.venv, .git, *migrations*, tests.py, views.py, settings.py
