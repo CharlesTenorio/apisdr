@@ -5,16 +5,7 @@ sudo: true
 python:
   - 3.8
 
-services:
-  postgresql
-addons:
-  postgresql: '11.5'
-
 env:
-    POSTGRES_USER: postgres
-    POSTGRES_PASSWORD: postgres
-    POSTGRES_DB: testdb
-    ports: ['5432:5432']
   global:
     - PIPENV_VENV_IN_PROJECT=1
     - PIPENV_IGNORE_VIRTUALENVS=1
