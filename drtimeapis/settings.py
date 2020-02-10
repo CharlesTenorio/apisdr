@@ -60,6 +60,8 @@ LEGGACY_APPS = [
     'profissional',
     'especialidade',
     'clinica_profissional',
+    'bancos',
+    'braspag',
 ]
 
 INSTALLED_APPS = (
@@ -202,3 +204,23 @@ ST_AGENDA_CHOICES = (
     ('Remarcado', 'Remarcado'),
 
 )
+
+BANDEIRA_CHOICES = (
+        ('Visa', 'Visa'),
+        ('Master', 'Master'),
+        ('Hipercard', 'Hipercard'),
+        ('Hiper', 'Hiper'),
+        ('American Express', 'American Express'),
+        ('Elo', 'Elo'),
+        ('Diners Club', 'Diners Club'),
+        ('American Express', 'American Express'),
+        ('Discover', 'Discover'),
+        ('JCB', 'JCB'),
+        ('Aura', 'Aura'),
+ )
+
+CONTA_TIPO_CHOICES = (
+        ('Conta corrente', 'CheckingAccount'),
+        ('Conta poupança', 'SavingsAccount'),
+ )
+
