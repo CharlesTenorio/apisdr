@@ -62,6 +62,7 @@ LEGGACY_APPS = [
     'clinica_profissional',
     'bancos',
     'braspag',
+    'bandeira',
 ]
 
 INSTALLED_APPS = (
